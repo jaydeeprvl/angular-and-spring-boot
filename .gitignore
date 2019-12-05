@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/frontend/todo/dist
+/frontend/todo/tmp
+/frontend/todo/out-tsc
+# Only exists if Bazel was run
+/frontend/todo/bazel-out
+
+# dependencies
+/frontend/todo/node_modules
+
+# profiling files
+/frontend/todo/chrome-profiler-events*.json
+/frontend/todo/speed-measure-plugin*.json
+
+# IDEs and editors
+/frontend/todo/.idea
+/frontend/todo/.project
+/frontend/todo/.classpath
+/frontend/todo/.c9/
+/frontend/todo/*.launch
+/frontend/todo/.settings/
+/frontend/todo/*.sublime-workspace
+
+# IDE - VSCode
+/frontend/todo/.vscode/*
+/frontend/todo/!.vscode/settings.json
+/frontend/todo/!.vscode/tasks.json
+/frontend/todo/!.vscode/launch.json
+/frontend/todo/!.vscode/extensions.json
+/frontend/todo/.history/*
+
+# misc
+/frontend/todo/.sass-cache
+/frontend/todo/connect.lock
+/frontend/todo/coverage
+/frontend/todo/libpeerconnection.log
+/frontend/todo/npm-debug.log
+/frontend/todo/yarn-error.log
+/frontend/todo/testem.log
+/frontend/todo/typings
+
+# System Files
+/frontend/todo/.DS_Store
+/frontend/todo/Thumbs.db
